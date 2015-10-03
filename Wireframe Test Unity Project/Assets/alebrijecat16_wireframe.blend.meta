@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: aa5808f98cbe6dc4f89366422c8a9c2e
+timeCreated: 1443664975
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AlebrijeCat
+    100002: //RootNode
+    100004: AlebrijeCat_001
+    100006: AlebrijeCat_002
+    100008: Avatar
+    100010: Avatar_good
+    100012: Avatar_meshes
+    100014: Cube
+    100016: mAnkleLeft
+    100018: mAnkleLeft_0
+    100020: mAnkleRight
+    100022: mAnkleRight_0
+    100024: mChest
+    100026: mChest_0
+    100028: mCollarLeft
+    100030: mCollarLeft_0
+    100032: mCollarRight
+    100034: mCollarRight_0
+    100036: mElbowLeft
+    100038: mElbowLeft_0
+    100040: mElbowRight
+    100042: mElbowRight_0
+    100044: mEyeLeft
+    100046: mEyeLeft_0
+    100048: mEyeRight
+    100050: mEyeRight_0
+    100052: mFootLeft
+    100054: mFootLeft_0
+    100056: mFootRight
+    100058: mFootRight_0
+    100060: mHead
+    100062: mHead_0
+    100064: mHipLeft
+    100066: mHipLeft_0
+    100068: mHipRight
+    100070: mHipRight_0
+    100072: mKneeLeft
+    100074: mKneeLeft_0
+    100076: mKneeRight
+    100078: mKneeRight_0
+    100080: mNeck
+    100082: mNeck_0
+    100084: mPelvis
+    100086: mPelvis_0
+    100088: mShoulderLeft
+    100090: mShoulderLeft_0
+    100092: mShoulderRight
+    100094: mShoulderRight_0
+    100096: mSkull
+    100098: mSkull_0
+    100100: mToeLeft
+    100102: mToeLeft_0
+    100104: mToeRight
+    100106: mToeRight_0
+    100108: mTorso
+    100110: mTorso_0
+    100112: mWristLeft
+    100114: mWristLeft_0
+    100116: mWristRight
+    100118: mWristRight_0
+    100120: Origin
+    100122: Origin_0
+    400000: AlebrijeCat
+    400002: //RootNode
+    400004: AlebrijeCat_001
+    400006: AlebrijeCat_002
+    400008: Avatar
+    400010: Avatar_good
+    400012: Avatar_meshes
+    400014: Cube
+    400016: mAnkleLeft
+    400018: mAnkleLeft_0
+    400020: mAnkleRight
+    400022: mAnkleRight_0
+    400024: mChest
+    400026: mChest_0
+    400028: mCollarLeft
+    400030: mCollarLeft_0
+    400032: mCollarRight
+    400034: mCollarRight_0
+    400036: mElbowLeft
+    400038: mElbowLeft_0
+    400040: mElbowRight
+    400042: mElbowRight_0
+    400044: mEyeLeft
+    400046: mEyeLeft_0
+    400048: mEyeRight
+    400050: mEyeRight_0
+    400052: mFootLeft
+    400054: mFootLeft_0
+    400056: mFootRight
+    400058: mFootRight_0
+    400060: mHead
+    400062: mHead_0
+    400064: mHipLeft
+    400066: mHipLeft_0
+    400068: mHipRight
+    400070: mHipRight_0
+    400072: mKneeLeft
+    400074: mKneeLeft_0
+    400076: mKneeRight
+    400078: mKneeRight_0
+    400080: mNeck
+    400082: mNeck_0
+    400084: mPelvis
+    400086: mPelvis_0
+    400088: mShoulderLeft
+    400090: mShoulderLeft_0
+    400092: mShoulderRight
+    400094: mShoulderRight_0
+    400096: mSkull
+    400098: mSkull_0
+    400100: mToeLeft
+    400102: mToeLeft_0
+    400104: mToeRight
+    400106: mToeRight_0
+    400108: mTorso
+    400110: mTorso_0
+    400112: mWristLeft
+    400114: mWristLeft_0
+    400116: mWristRight
+    400118: mWristRight_0
+    400120: Origin
+    400122: Origin_0
+    2300000: AlebrijeCat_002
+    2300002: Cube
+    3300000: AlebrijeCat_002
+    3300002: Cube
+    4300000: Cube
+    4300002: AlebrijeCat_001
+    4300004: AlebrijeCat
+    4300006: AlebrijeCat_002
+    7400000: Default Take
+    7400002: AlebrijeCatStand1p0
+    7400004: AvatarAction
+    9500000: //RootNode
+    13700000: AlebrijeCat
+    13700002: AlebrijeCat_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

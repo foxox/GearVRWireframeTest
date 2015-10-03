@@ -1,2 +1,2 @@
 # GearVRWireframeTest
-GearVR Unity Test Project
+Test project for Unity development for the GearVR.

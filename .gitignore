@@ -1,3 +1,14 @@
+
+
+
+*.apk
+
+
+
+
+
+
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -19,3 +30,5 @@
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+Wireframe Test Unity Project/Assets/oculussig_4b2dceeb
+Wireframe Test Unity Project/Assets/oculussig_4b2dceeb.meta
