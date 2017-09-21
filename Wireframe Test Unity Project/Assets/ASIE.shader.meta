@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: 5a8707192ab90cb43aff76b5d54f388a
-timeCreated: 1505395148
+timeCreated: 1505742545
 licenseType: Free
 ShaderImporter:
-  defaultTextures: []
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _DepthImage: {fileID: 8400000, guid: 8c9527970b3029f47b473ce72a3ba58f, type: 2}
+  - _PatternImage: {fileID: 2800000, guid: 8fcaabdfed3c311498acd0e033e29a77, type: 3}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

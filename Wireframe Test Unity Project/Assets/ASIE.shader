@@ -2,8 +2,11 @@
 {
 	Properties
 	{
-		_MainTex("Base (RGB)", 2D) = "white" {}
-		_BWBlend("Black & White blend", Range (0, 1)) = 0
+		//_BWBlend("Black & White blend", Range (0, 1)) = 0
+		_MainTex ("Base (RGB)", 2D) = "white" {}
+		_DepthImage ("Depth Image", 2D) = "white" {}
+		_PatternImage ("Pattern Image", 2D) = "white" {}
+		_PatternScale ("Scale of Pattern Tiling", Float) = 1
 	}
 
 	SubShader
@@ -18,22 +21,28 @@
 
 #include "UnityCG.cginc"
 
+			//uniform float _BWBlend;
 			uniform sampler2D _MainTex;
-			uniform float _BWBlend;
+			//uniform sampler2D _DepthImage;
+			uniform sampler2D _OffsetImage;
+			uniform sampler2D _PatternImage;
+			uniform float _PatternScale;
 
 			float4 frag(v2f_img i) : COLOR
 			{
-				half2 uv = i.uv;
-				uv.x = i.uv.x + sin(i.uv.y * 10 + _Time * 10) * 0.1;
-				//uv.y = cos(i.uv.y + _Time);
+				float4 screenColor = tex2D(_MainTex, i.uv);
 
-				float4 c = tex2D(_MainTex, uv);
 
-				//float lum = c.r*.3 + c.g*.59 + c.b*.11;
-				//float3 bw = float3(lum, lum, lum);
+				half2 patternuv = i.uv;
+				float offset = tex2D(_OffsetImage, i.uv).r;
 
-				float4 result = c;
-				//result.rgb = lerp(c.rgb, bw, _BWBlend);
+				patternuv.x = offset * 10.0f;
+				patternuv.y *= 4;
+
+				float4 patternColor = tex2D(_PatternImage, patternuv);
+
+				float4 result = patternColor;
+				//result = offset;
 				return result;
 			}
 
