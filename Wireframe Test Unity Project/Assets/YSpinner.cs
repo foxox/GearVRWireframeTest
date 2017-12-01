@@ -12,5 +12,12 @@ public class YSpinner : MonoBehaviour
 	{
 		rotation.y += RATE * Time.deltaTime;
 		this.transform.eulerAngles = rotation;
+
+		if (Input.GetMouseButtonDown(0))
+		{
+			rotation.y += 180.0f;
+			this.transform.eulerAngles = rotation;
+			Application.Quit();
+		}
 	}
 }
